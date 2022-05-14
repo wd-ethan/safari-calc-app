@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2803CBB4280F174600DF5E7E /* SafariCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBB3280F174600DF5E7E /* SafariCalcApp.swift */; };
+		2803CBB6280F174600DF5E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBB5280F174600DF5E7E /* ContentView.swift */; };
+		2803CBB8280F174900DF5E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2803CBB7280F174900DF5E7E /* Assets.xcassets */; };
+		2803CBBB280F174900DF5E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2803CBBA280F174900DF5E7E /* Preview Assets.xcassets */; };
+		2803CBC5280F174900DF5E7E /* SafariCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBC4280F174900DF5E7E /* SafariCalcTests.swift */; };
+		2803CBCF280F174900DF5E7E /* SafariCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBCE280F174900DF5E7E /* SafariCalcUITests.swift */; };
+		2803CBD1280F174900DF5E7E /* SafariCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBD0280F174900DF5E7E /* SafariCalcUITestsLaunchTests.swift */; };
+		2803CBDE280F1FE000DF5E7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBDD280F1FE000DF5E7E /* HomeView.swift */; };
+		2803CBE0280F208900DF5E7E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBDF280F208900DF5E7E /* SettingsView.swift */; };
+		2803CBE4280F325100DF5E7E /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBE3280F325100DF5E7E /* MoneyView.swift */; };
+		2803CBE6280F42ED00DF5E7E /* CalcPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803CBE5280F42ED00DF5E7E /* CalcPage.swift */; };
+		28A309BC282F02F4000EFDE2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A309BB282F02F4000EFDE2 /* Person.swift */; };
+		28A309BE282F2083000EFDE2 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A309BD282F2083000EFDE2 /* Group.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2803CBC1280F174900DF5E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2803CBA8280F174600DF5E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2803CBAF280F174600DF5E7E;
+			remoteInfo = SafariCalc;
+		};
+		2803CBCB280F174900DF5E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2803CBA8280F174600DF5E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2803CBAF280F174600DF5E7E;
+			remoteInfo = SafariCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2803CBB0280F174600DF5E7E /* SafariCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803CBB3280F174600DF5E7E /* SafariCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCalcApp.swift; sourceTree = "<group>"; };
+		2803CBB5280F174600DF5E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2803CBB7280F174900DF5E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2803CBBA280F174900DF5E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2803CBC0280F174900DF5E7E /* SafariCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803CBC4280F174900DF5E7E /* SafariCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCalcTests.swift; sourceTree = "<group>"; };
+		2803CBCA280F174900DF5E7E /* SafariCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803CBCE280F174900DF5E7E /* SafariCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCalcUITests.swift; sourceTree = "<group>"; };
+		2803CBD0280F174900DF5E7E /* SafariCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2803CBDD280F1FE000DF5E7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2803CBDF280F208900DF5E7E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2803CBE3280F325100DF5E7E /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		2803CBE5280F42ED00DF5E7E /* CalcPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPage.swift; sourceTree = "<group>"; };
+		28A309BB282F02F4000EFDE2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		28A309BD282F2083000EFDE2 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2803CBAD280F174600DF5E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBBD280F174900DF5E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBC7280F174900DF5E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2803CBA7280F174600DF5E7E = {
+			isa = PBXGroup;
+			children = (
+				2803CBB2280F174600DF5E7E /* SafariCalc */,
+				2803CBC3280F174900DF5E7E /* SafariCalcTests */,
+				2803CBCD280F174900DF5E7E /* SafariCalcUITests */,
+				2803CBB1280F174600DF5E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2803CBB1280F174600DF5E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2803CBB0280F174600DF5E7E /* SafariCalc.app */,
+				2803CBC0280F174900DF5E7E /* SafariCalcTests.xctest */,
+				2803CBCA280F174900DF5E7E /* SafariCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2803CBB2280F174600DF5E7E /* SafariCalc */ = {
+			isa = PBXGroup;
+			children = (
+				2803CBB3280F174600DF5E7E /* SafariCalcApp.swift */,
+				2803CBB5280F174600DF5E7E /* ContentView.swift */,
+				28A309BB282F02F4000EFDE2 /* Person.swift */,
+				28A309BD282F2083000EFDE2 /* Group.swift */,
+				2803CBDF280F208900DF5E7E /* SettingsView.swift */,
+				2803CBDD280F1FE000DF5E7E /* HomeView.swift */,
+				2803CBE3280F325100DF5E7E /* MoneyView.swift */,
+				2803CBE5280F42ED00DF5E7E /* CalcPage.swift */,
+				2803CBB7280F174900DF5E7E /* Assets.xcassets */,
+				2803CBB9280F174900DF5E7E /* Preview Content */,
+			);
+			path = SafariCalc;
+			sourceTree = "<group>";
+		};
+		2803CBB9280F174900DF5E7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2803CBBA280F174900DF5E7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2803CBC3280F174900DF5E7E /* SafariCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2803CBC4280F174900DF5E7E /* SafariCalcTests.swift */,
+			);
+			path = SafariCalcTests;
+			sourceTree = "<group>";
+		};
+		2803CBCD280F174900DF5E7E /* SafariCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2803CBCE280F174900DF5E7E /* SafariCalcUITests.swift */,
+				2803CBD0280F174900DF5E7E /* SafariCalcUITestsLaunchTests.swift */,
+			);
+			path = SafariCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2803CBAF280F174600DF5E7E /* SafariCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2803CBD4280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalc" */;
+			buildPhases = (
+				2803CBAC280F174600DF5E7E /* Sources */,
+				2803CBAD280F174600DF5E7E /* Frameworks */,
+				2803CBAE280F174600DF5E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariCalc;
+			productName = SafariCalc;
+			productReference = 2803CBB0280F174600DF5E7E /* SafariCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2803CBBF280F174900DF5E7E /* SafariCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2803CBD7280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalcTests" */;
+			buildPhases = (
+				2803CBBC280F174900DF5E7E /* Sources */,
+				2803CBBD280F174900DF5E7E /* Frameworks */,
+				2803CBBE280F174900DF5E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2803CBC2280F174900DF5E7E /* PBXTargetDependency */,
+			);
+			name = SafariCalcTests;
+			productName = SafariCalcTests;
+			productReference = 2803CBC0280F174900DF5E7E /* SafariCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2803CBC9280F174900DF5E7E /* SafariCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2803CBDA280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalcUITests" */;
+			buildPhases = (
+				2803CBC6280F174900DF5E7E /* Sources */,
+				2803CBC7280F174900DF5E7E /* Frameworks */,
+				2803CBC8280F174900DF5E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2803CBCC280F174900DF5E7E /* PBXTargetDependency */,
+			);
+			name = SafariCalcUITests;
+			productName = SafariCalcUITests;
+			productReference = 2803CBCA280F174900DF5E7E /* SafariCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2803CBA8280F174600DF5E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2803CBAF280F174600DF5E7E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2803CBBF280F174900DF5E7E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2803CBAF280F174600DF5E7E;
+					};
+					2803CBC9280F174900DF5E7E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2803CBAF280F174600DF5E7E;
+					};
+				};
+			};
+			buildConfigurationList = 2803CBAB280F174600DF5E7E /* Build configuration list for PBXProject "SafariCalc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2803CBA7280F174600DF5E7E;
+			productRefGroup = 2803CBB1280F174600DF5E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2803CBAF280F174600DF5E7E /* SafariCalc */,
+				2803CBBF280F174900DF5E7E /* SafariCalcTests */,
+				2803CBC9280F174900DF5E7E /* SafariCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2803CBAE280F174600DF5E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2803CBBB280F174900DF5E7E /* Preview Assets.xcassets in Resources */,
+				2803CBB8280F174900DF5E7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBBE280F174900DF5E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBC8280F174900DF5E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2803CBAC280F174600DF5E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2803CBE4280F325100DF5E7E /* MoneyView.swift in Sources */,
+				2803CBDE280F1FE000DF5E7E /* HomeView.swift in Sources */,
+				2803CBE0280F208900DF5E7E /* SettingsView.swift in Sources */,
+				28A309BE282F2083000EFDE2 /* Group.swift in Sources */,
+				2803CBE6280F42ED00DF5E7E /* CalcPage.swift in Sources */,
+				28A309BC282F02F4000EFDE2 /* Person.swift in Sources */,
+				2803CBB6280F174600DF5E7E /* ContentView.swift in Sources */,
+				2803CBB4280F174600DF5E7E /* SafariCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBBC280F174900DF5E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2803CBC5280F174900DF5E7E /* SafariCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2803CBC6280F174900DF5E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2803CBCF280F174900DF5E7E /* SafariCalcUITests.swift in Sources */,
+				2803CBD1280F174900DF5E7E /* SafariCalcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2803CBC2280F174900DF5E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2803CBAF280F174600DF5E7E /* SafariCalc */;
+			targetProxy = 2803CBC1280F174900DF5E7E /* PBXContainerItemProxy */;
+		};
+		2803CBCC280F174900DF5E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2803CBAF280F174600DF5E7E /* SafariCalc */;
+			targetProxy = 2803CBCB280F174900DF5E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2803CBD2280F174900DF5E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2803CBD3280F174900DF5E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2803CBD5280F174900DF5E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VTSX44YHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2803CBD6280F174900DF5E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VTSX44YHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2803CBD8280F174900DF5E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariCalc.app/SafariCalc";
+			};
+			name = Debug;
+		};
+		2803CBD9280F174900DF5E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariCalc.app/SafariCalc";
+			};
+			name = Release;
+		};
+		2803CBDB280F174900DF5E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariCalc;
+			};
+			name = Debug;
+		};
+		2803CBDC280F174900DF5E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = safari.SafariCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2803CBAB280F174600DF5E7E /* Build configuration list for PBXProject "SafariCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2803CBD2280F174900DF5E7E /* Debug */,
+				2803CBD3280F174900DF5E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2803CBD4280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2803CBD5280F174900DF5E7E /* Debug */,
+				2803CBD6280F174900DF5E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2803CBD7280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2803CBD8280F174900DF5E7E /* Debug */,
+				2803CBD9280F174900DF5E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2803CBDA280F174900DF5E7E /* Build configuration list for PBXNativeTarget "SafariCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2803CBDB280F174900DF5E7E /* Debug */,
+				2803CBDC280F174900DF5E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2803CBA8280F174600DF5E7E /* Project object */;
+}
